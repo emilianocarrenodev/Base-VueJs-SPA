@@ -1,0 +1,44 @@
+{
+  "name": "demovuejsspa",
+  "version": "1.0.0",
+  "description": "Demo VueJs SPA",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --config webpack.config.js -p",
+    "dev": "webpack-dev-server --config webpack.config.js -d",
+    "watch": "webpack -w"
+  },
+  "keywords": [
+    "Demo",
+    "VueJs",
+    "SPA"
+  ],
+  "author": "Emiliano Carreño",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-vue-grids": "^18.1.42",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "ssr-window": "^1.0.1",
+    "url-polyfill": "^1.1.8",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "vue-router": "^3.1.6",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.1.3"
+  }
+}
