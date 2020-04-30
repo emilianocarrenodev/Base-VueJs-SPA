@@ -31,7 +31,7 @@
   "dependencies": {
     "@syncfusion/ej2-vue-grids": "^18.1.42",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
     "ssr-window": "^1.0.1",
     "url-polyfill": "^1.1.8",
